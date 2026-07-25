@@ -1,11 +1,16 @@
--- DETERMINE WHICH PRODUCT CATEGORIES GENERATED THE HIGHEST TOTAL PROFIT
+-- Ticket 001
+-- Which categories generate the most profit?
+
 SELECT category, 
        SUM(profit) as total_profit
 FROM superstoredata
 GROUP BY category
 ORDER BY total_profit DESC;
 
--- WHY IS FURNITURE UNDERPERFORMING
+---------------------------------------------------------
+
+-- Ticket 002
+-- Which furniture 
 SELECT category,
        sub_category,
        SUM(proift) AS total_profit

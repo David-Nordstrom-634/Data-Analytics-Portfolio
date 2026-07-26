@@ -10,7 +10,7 @@ ORDER BY total_profit DESC;
 ---------------------------------------------------------
 
 -- Ticket 002
--- Which furniture 
+-- Which furniture sub-categories contribute the most profit?
 SELECT category,
        sub_category,
        SUM(proift) AS total_profit

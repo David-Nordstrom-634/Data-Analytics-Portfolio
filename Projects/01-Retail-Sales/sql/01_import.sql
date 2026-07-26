@@ -1,3 +1,7 @@
+-- Retail Sales Project
+-- Import Script
+
+-- Create table
 CREATE TABLE superstoredata (
     row_id INTEGER PRIMARY KEY,
     order_id VARCHAR(16),
@@ -21,3 +25,5 @@ CREATE TABLE superstoredata (
     discount NUMERIC,
     profit NUMERIC
 ),
+
+-- Data imported using the pgAdmin Import/Export tool. 

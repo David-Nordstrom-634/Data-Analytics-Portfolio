@@ -1,40 +1,62 @@
 # Retail Sales Performance Analysis
 
-## Objective
+## Project Overview
 
-Analyze retail sales data to identify profitable products, customer segments, regional performance, and provide business recommendations.
+This project analyzes retail sales data using PostgreSQL, SQL, Excel, and Power BI to identify opportunities to improve profitability and support business decision-making.
 
---- 
-
-## Dataset
-
-Sample Superstore
+The analysis focuses on answering business questions rather than simply reporting metrics.
 
 ---
 
-## Questions
+## Objectives
 
-- [x] Which categories are most profitable?
-- [x] Which Furniture sub-categories are most profitiable?
-- [ ] Which customer segments are most valuable?
-- [ ] Which regions perform best?
-- [ ] How have sales changed over time?
+- Identify the most profitable product categories.
+- Investigate underperforming categories.
+- Evaluate the relationship between discounts and profitability.
+- Analyze customer and regional performance.
+- Build an executive Power BI dashboard.
+- Present business recommendations based on the findings.
 
 ---
 
-## Tools
+## Tools Used
 
 - PostgreSQL
 - SQL
-- Power BI
 - Excel
+- Power BI
+- Git
+- GitHub
+
+---
 
 ## Current Progress
-- ✅ Imported and validated dataset
-- ✅ Profitability analysis
-- ✅ Furniture profitability investigation
-- ✅ Initial discount analysis
-- ⏳ Customer segmentation
-- ⏳ Regional performance
-- ⏳ Time series analysis
-- ⏳ Executive dashboard
+
+### Completed
+
+- Imported and validated the dataset
+- Built the PostgreSQL database
+- Verified data integrity
+- Completed initial protifability analysis
+- Completed initial discount analysis
+
+### In Progress
+
+- Customer analysis
+- Regional analysis
+- Time-series analysis
+- Dashboard development
+
+---
+
+## Repository Structure
+
+(sql, doc, powerbi, etc.)
+
+---
+
+## Key Findings (So Far)
+
+- Technology is the most profitable product category.
+- Furniture significantly underperforms other categories.
+- Higher discounts are generally associated with lower average profit, although additional analysis is needed.

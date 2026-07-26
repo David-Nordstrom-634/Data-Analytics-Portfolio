@@ -51,3 +51,56 @@ The analysis suggests that average profit generally declines as discount levels 
 
 ### Business Impact
 Discount strategy should be evaluated alongside sales performance before making pricing decisions.
+
+## Investigation 4 - Customer Segment Analysis
+
+### Business Question
+
+Which customer segment generates the greatest business value?
+
+### Findings
+
+Consumer generated the highest sales, the highest profit, and the largest number of orders, making it the company's largest revenue-generating segment.
+
+However, Home Office generated the highest average profit per order, suggesting that although it is a smaller segment, each transaction is more profitable on average.
+
+### Recommendation
+
+Continue investigating in the Consumer segment because of its scale, but investigate why Home Office orders generate higher profit per transaction. Those insights may reveal opportunities to improve profitability across other customer segments.
+
+### Limitations
+
+This analysis does not account for customer acquisition costs, repeat purchase behavior, marketing spend, or product mix. Additional analysis is needed before recommending changes to resource allocation.
+
+## Investigation 5 - Regional Investment Analysis
+
+### Business Question
+
+Which region should receive additional investment?
+
+### Hypothesis
+
+I believe the West region will be the strongest candidate because I expect it to generate the highest overall profit while maintaining strong sales performance.
+
+### SQL Techniques Used
+
+- GROUP BY
+- Aggregate Functions
+- ORDER BY
+- Multi-level analysis
+
+### Findings
+
+The West region led in total sales, total profit, total orders, and profit margin. It also outperformed the other regions in Office Supplies and Furniture profitability, indicating that its success is driven by multiple product categories rather than a single area of strength.
+
+## Recommendation
+
+Based on the available data, I recommend investing in the West region. Its strong performance across multiple key performance indicators suggests that additional investment is likely to generate a favorable return.
+
+## Limitations
+
+This recommendation is based solely on historical sales data. Additional information, such as regional population, market saturation, customer acquisition costs, and competitor presence, would strengthen future investment decisions.
+
+## Next Investigation
+
+Determine whether customer behavior differs across regions and identify which customer segments drive regional success.

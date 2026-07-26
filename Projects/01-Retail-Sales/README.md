@@ -1,62 +1,65 @@
 # Retail Sales Performance Analysis
 
-## Project Overview
+## Project Objective
 
-This project analyzes retail sales data using PostgreSQL, SQL, Excel, and Power BI to identify opportunities to improve profitability and support business decision-making.
-
-The analysis focuses on answering business questions rather than simply reporting metrics.
+Analyze historical retail sales data to identify opportunities to improve profitability and support strategic business decisions.
 
 ---
 
-## Objectives
+## Business Questions
 
-- Identify the most profitable product categories.
-- Investigate underperforming categories.
-- Evaluate the relationship between discounts and profitability.
-- Analyze customer and regional performance.
-- Build an executive Power BI dashboard.
-- Present business recommendations based on the findings.
+- Which product categories generate the highest profit?
+- Which furniture sub-categories perform best?
+- Are discounts associated with lower profitability?
+- Which customer segment generates the greatest business value?
+- Which region should receive additional investment?
 
 ---
 
-## Tools Used
+## Tools
 
 - PostgreSQL
 - SQL
 - Excel
-- Power BI
+- Power BI (In Progress)
 - Git
 - GitHub
 
 ---
 
-## Current Progress
+## Project Status
 
 ### Completed
 
-- Imported and validated the dataset
-- Built the PostgreSQL database
-- Verified data integrity
-- Completed initial protifability analysis
-- Completed initial discount analysis
+- Datebase creation
+- Date validation
+- Profitability analysis
+- Discount analysis
+- Customer segment analysis
+- Regional investment analysis
 
 ### In Progress
 
-- Customer analysis
-- Regional analysis
-- Time-series analysis
 - Dashboard development
+- Time-series analysis
+- Executive reporting
 
 ---
 
-## Repository Structure
+## Key Insights
 
-(sql, doc, powerbi, etc.)
+### Profitability
 
----
+Technology is the most profitable product category.
 
-## Key Findings (So Far)
+### Discounts
 
-- Technology is the most profitable product category.
-- Furniture significantly underperforms other categories.
-- Higher discounts are generally associated with lower average profit, although additional analysis is needed.
+Higher discount levels generally correspond with lower average profit.
+
+### Customer Segments
+
+Consumer customers generate the greatest total profit, while Home Office customers generate the highest average profit per order.
+
+### Regional Performance
+
+The West region demonstrates strong performance across multiple business metrics, making it the strongest candidate for future investment.

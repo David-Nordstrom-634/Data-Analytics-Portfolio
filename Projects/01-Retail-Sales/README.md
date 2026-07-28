@@ -37,10 +37,10 @@ Analyze historical retail sales data to identify opportunities to improve profit
 - Discount analysis
 - Customer segment analysis
 - Regional investment analysis
+- Dashboard development
 
 ### In Progress
 
-- Dashboard development
 - Time-series analysis
 - Executive reporting
 
@@ -63,3 +63,12 @@ Consumer customers generate the greatest total profit, while Home Office custome
 ### Regional Performance
 
 The West region demonstrates strong performance across multiple business metrics, making it the strongest candidate for future investment.
+
+### Dashboard Features
+
+- Executive KPI overview
+- Interactive slicers for Region, Category, Segment, and Year
+- Drill-through product analysis
+- Regional profitability comparison
+- Customer segment analysis
+- Sales tred visualization

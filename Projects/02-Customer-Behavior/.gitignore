@@ -1,0 +1,10 @@
+# Raw/processed project data
+*.xlsx
+*.csv
+
+# Power BI temporary files
+*.pbix.tmp 
+
+# OS files
+.DS_Store
+Thumbs.db
